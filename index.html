@@ -1,33 +1,95 @@
 <!doctype html>
 <html class="no-js" lang="en">
-
 <head>
   <meta charset="utf-8">
-  <title>Responsive Layouts</title>
-  <meta name="description" content="This site will serve as the hub for many sub responsive layouts">
+  <title>Train Animation</title>
+  <meta name="description" content="Inside train animation.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
-
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
-
+  <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="icon.png">
   <meta name="theme-color" content="#fafafa">
+
+  <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900;family=Silkscreen:wght@400;700&family=Tilt+Neon&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
 </head>
 
 <body>
 
-  
+  <div class="container">
+    <div class="train">
+        <img src="img/train.png" alt="Train Image">
+    </div>
 
+    <div class="top-signs">
 
+        <div class="sign1">
+            <h1>Your next stop is: </h1>
+            <div class="city">
+              <div class="city-names">
+                <div>Tokyo</div>
+                <div>Kyoto</div>
+                <div>Nara</div>
+                <div>Osaka</div>
+              </div>
+            </div>
+        </div>
+
+        <div class="sign2">
+            <h1>Please stay seated until the next stop.</h1>
+        </div>
+
+        <div class="sign3">
+            <h1 class="animate__animated animate__tada">New Lottery Increase!!!</h1>
+        </div>
+
+        <div class="sign4">
+          <h1 class="animate__animated animate__flipInX">VOTE NOW FOR ANIME OF THE YEAR</h1>
+        </div>
+
+    </div>
+
+    <div class="bottom-signs">
+
+        <div class="left-signs">
+
+            <div class="left-square1">
+                <div class="animate__animated animate__hinge">VOTE NOW</div>
+              </div>
+            </div>
+            
+            <div class="left-square2">
+                <h1 class="animate__animated animate__heartBeat">Cafe Enchanted 15% For Students</h1>
+            </div>
+
+        </div>
+        
+        <div class="right-signs">
+
+            <div class="right-square1">
+              <div class="otome">
+                <div>OT-</div>
+                <div>OME</div>
+                <div>CA</div>
+                <div>FE</div>
+                <div>SO</div>
+                <div>ON</div>
+              </div>
+            </div>
+
+            <div class="right-square2">
+                <p>EMERGENCY STOP</p>
+            </div>
+            
+        </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="js/main.js"></script>
-</body>
 
+</body>
 </html>
